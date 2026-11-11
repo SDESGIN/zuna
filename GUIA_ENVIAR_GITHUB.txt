@@ -1,0 +1,14 @@
+ZUNA V21 - TODOS OS ARQUIVOS SOLTOS
+
+1) EXTRAIA o ZIP no computador.
+2) GitHub > seu repositorio > Add file > Upload files.
+3) Selecione TODOS os arquivos extraidos, sem pastas.
+4) Commit changes.
+5) Netlify > Import from Git > GitHub > seu repositorio.
+6) Comando build: npm run build
+7) Diretorio publish: web
+8) Diretorio de funcoes: netlify/functions
+9) Teste /api/health e confirme o banco na Netlify.
+
+NUNCA envie o ZIP fechado como substituto dos arquivos.
+O build cria as pastas automaticamente na Netlify.
